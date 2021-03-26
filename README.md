@@ -12,8 +12,9 @@ Hofhuis, J., Schafraad, P., Trilling, D., Luca, N., & Van Manen, B. (in press). 
 This repository contains the materials used for the article mentioned above. In particular, it contains the following files and directories:
 
 - `src/analysis.py`: The hart of DivPAR: The script we used to count the diversity perspectives. Takes `data/raw-private/**/**/*.txt.gz` as input and produces `data/intermediate/automatedcoding.csv`.
-- `src/analysis/searchstrings.json` The file that defines the regular expressions to operationalize the different diversity perspectives. Used by `src/analysis.py`
-- `src/analysis/check_against_goldstandard.ipynb` A jupyter notebook to calculate agreement of our method with manual coding.
+- `src/analysis/searchstrings.json`: The file that defines the regular expressions to operationalize the different diversity perspectives. Used by `src/analysis.py`
+- `src/analysis/check_against_goldstandard.ipynb`: A jupyter notebook to calculate agreement of our method with manual coding.
 - `src/data-processing/pdf2txt`: The script we used to create the plain text files in `data/raw-private/**/**/*.txt.gz`.
-- `data/raw-private` - Directory with input data. In our case, texts of annual reports as gzipped plain text files.
-- `data/intermediate/automatedcoding.csv` output produced by DivPAR.
+- `data/raw-private`: Directory with input data. In our case, texts of annual reports as gzipped plain text files.
+- `data/raw/test_vs_goldstandard.csv`: Manual annotations
+- `data/intermediate/automatedcoding.csv`: Output produced by DivPAR.
