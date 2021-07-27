@@ -5,13 +5,13 @@ In organizational communication, different perspectives can be identified with r
 
 For a full description of the development and validation of DivPAR, and an overview of future uses, we'd like to refer you to the following article:
 
-Hofhuis, J., Schafraad, P., Trilling, D., Luca, N., & Van Manen, B. (in press). Automated content analysis of cultural diversity perspectives in annual reports (DivPAR): Development, validation, and future research agenda. Cultural Diversity and Ethnic Minority Psychology.
+Hofhuis, J., Schafraad, P., Trilling, D., Luca, N., & Van Manen, B. (in press). Automated content analysis of cultural diversity perspectives in annual reports (DivPAR): Development, validation, and future research agenda. Cultural Diversity and Ethnic Minority Psychology. https://dx.doi.org/10.1037/cdp0000413
 
 ## Structure of the repository
 
 This repository contains the materials used for the article mentioned above. In particular, it contains the following files and directories:
 
-- `src/analysis.py`: The hart of DivPAR: The script we used to count the diversity perspectives. Takes `data/raw-private/**/**/*.txt.gz` as input and produces `data/intermediate/automatedcoding.csv`.
+- `src/analysis.py`: The heart of DivPAR: The script we used to count the diversity perspectives. Takes `data/raw-private/**/**/*.txt.gz` as input and produces `data/intermediate/automatedcoding.csv`.
 - `src/analysis/searchstrings.json`: The file that defines the regular expressions to operationalize the different diversity perspectives. Used by `src/analysis.py`
 - `src/analysis/check_against_goldstandard.ipynb`: A jupyter notebook to calculate agreement of our method with manual coding.
 - `src/data-processing/pdf2txt`: The script we used to create the plain text files in `data/raw-private/**/**/*.txt.gz`.
