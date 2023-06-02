@@ -5,7 +5,7 @@ In organizational communication, different perspectives can be identified with r
 
 For a full description of the development and validation of DivPAR, and an overview of future uses, we'd like to refer you to the following article:
 
-Hofhuis, J., Schafraad, P., Trilling, D., Luca, N., & Van Manen, B. (in press). Automated content analysis of cultural diversity perspectives in annual reports (DivPAR): Development, validation, and future research agenda. Cultural Diversity and Ethnic Minority Psychology. https://dx.doi.org/10.1037/cdp0000413
+Hofhuis, J., Schafraad, P., Trilling, D., Luca, N., & Van Manen, B. (2023). Automated content analysis of cultural diversity perspectives in annual reports (DivPAR): Development, validation, and future research agenda. Cultural Diversity and Ethnic Minority Psychology, 29(1), p.74–84. https://dx.doi.org/10.1037/cdp0000413
 
 ## Structure of the repository
 
